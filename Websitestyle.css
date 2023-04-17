@@ -29,8 +29,10 @@ filter: saturate(150%);
   .menu-item {display: none;}
   .menu-item a.icon {
     float: right;
-    display: block;
-  }
+    display: block;}
+    .Main{
+      padding-bottom: 50px;
+    }
 }
 
 .Main {
