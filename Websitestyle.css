@@ -7,19 +7,32 @@
 
 /* image in center of border */
 img {
-filter: contrast(110%) 
+filter: contrast(110%)
+  max-width: 100%;
+  height: auto;
 }
 
-.mainimage{
-  height: 510px;
-  style="max-width:auto;height:auto;
-  display: inline-flex;
+.mainimage {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mainimage.responsive{
-  min-width: 50%;
-  min-height: 50%;
-  display: block;
+@media only screen and (min-width: 768px) {
+  /* styles for screens wider than 768px */
+  .mainimage {
+    max-width: 750px;
+    height: 520px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* styles for screens narrower than 768px */
+  .mainimage {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /*Centre Heading and Subtitle*/
@@ -28,30 +41,12 @@ filter: contrast(110%)
   .menu-item {
   font-size: 22px;
 }
-  .menu-item a.icon {
-    float: right;
-    display: block;}
-    .Main{
-      padding-bottom: 150px;
-    }
-    .borderaroundtext{
-    border: 5px;
-    margin-right: 0px;
-    margin-left: 0px;
-
-}
 }
 
 .Main {
   font-style: italic;
   font-size: 22px;
- 
-
 }
-.Main.responsive {
-        display: block;
-        font-size: 20px;
-      }
 
 /*Leftside Navigation Menu including title of the website at the top left and the hover effects*/
 
@@ -108,24 +103,17 @@ display: block;
         display: block;
       }
 
-.borderaroundtext{
-border: 5px;
-border-color: #BF7C2A;
-border-style: double;
-margin-right: 100px;
-margin-left: 100px;
-padding-top: 5px;
-padding-left: 5px;
-padding-right: 5px;
-
+.borderaroundtext {
+  border: 5px double #BF7C2A;
+  padding: 5px;
+  margin: 0 50px;
+  overflow: hidden; /* added overflow property */
 }
 
-.borderaroundtext.responsive {
-        display: block;
-}
-
-.mainimage.borderaroundtext{
-   display: inline-flex;
+@media only screen and (max-width: 720px) {
+  .borderaroundtext {
+    margin: 0;
+  }
 }
 
 html {
