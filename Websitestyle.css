@@ -253,3 +253,12 @@ summary::-webkit-details-marker {
 hr {
   color:#BF7C2A;
 }
+
+.blog-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 10%;
+  max-height: 10vh;
+  width: auto;
+  height: auto;
+}
