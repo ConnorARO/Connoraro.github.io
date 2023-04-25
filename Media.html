@@ -37,14 +37,90 @@ I build for the web.</a></h1>
 		<a href="index.html" class = "menu-item">Home</a> <a href="Blog.html" class = "menu-item">Blog</a> <a href="Contact.html" class = "menu-item">Contact</a> <a href="Media.html" class = "menu-item">Media Work</a> <a href="Resume.html" class = "menu-item">Résumé </a>
 	</div>
 </div>
-
-
-	<div class="body-text">
+<div class="body-text">
 <div class="borderaroundtext">
 	<h1>Examples of Web Design Work:</h1>
-	<a href="https://robinsonfencing.com/">Robinson Fencing</a>
-	<br>
-	<a href="https://purojekutodi.wordpress.com/">Project. D</a>
+	<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #191919;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  opacity: 1;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 20%;
+    margin-right: 1px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+</style>
+
+<div class="container">
+	<a href="https://robinsonfencing.com/">
+  <img src="fencing.png" alt="Robinson Fencing" class="image">
+  <div class="overlay">
+    <div class="text">Click here to visit site</div>
+</a>
+  </div>
+</div>
+
+<div class="container">
+	<a href="https://purojekutodi.wordpress.com/">
+  <img src="Project D.png" alt="Project. D" class="image">
+  <div class="overlay">
+    <div class="text">Click here to visit site</div>
+</a>
+  </div>
+</div>
+
 	<h1>Examples of Photography:</h1>
 	<a href="https://www.amazon.co.uk/photos/share/P9SceKNL5VT9UXaQjkqR8wgS84dZykcWpXRkHzuXRel">Car Show 2022</a>
 	<br>
