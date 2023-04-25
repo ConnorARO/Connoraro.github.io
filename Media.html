@@ -87,12 +87,28 @@ I build for the web.</a></h1>
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
  .container {
     width: 70%;
     margin-bottom: 40px;
     display: inline-block;
     vertical-align: top;
+  }
+  .image{
+  	width: 70%;
+  	height: auto;
+  	padding: 5px;
+  }
+  .overlay {
+ position: absolute;
+  left: 15%;
+  right: 55%;
+  width: 70%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #191919;
+  border-radius: 20%;
   }
   .text {
   	font-size: 14px;
