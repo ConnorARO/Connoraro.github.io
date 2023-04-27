@@ -12,28 +12,6 @@ filter: contrast(110%)
   height: auto;
 }
 
-.mainimage {
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media only screen and (min-width: 768px) {
-  /* styles for screens wider than 768px */
-  .mainimage {
-    max-width: 750px;
-    height: 520px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  /* styles for screens narrower than 768px */
-  .mainimage {
-    max-width: 100%;
-    height: auto;
-  }
-}
 
 /*Centre Heading and Subtitle*/
 
