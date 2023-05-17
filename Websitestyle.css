@@ -1,8 +1,8 @@
 /* Define the custom font */
 @font-face {
   font-family: 'CustomFont';
-  src: url('path/to/font.woff2') format('woff2'),
-       url('path/to/font.woff') format('woff');
+  src: url('/fonts/arial.ttf') format('ttf'),
+       url('/fonts/roboto-black.ttf') format('ttf');
 }
 
 body {
