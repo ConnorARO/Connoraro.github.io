@@ -9,6 +9,14 @@ body {
   font-family: 'CustomFont', Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
+main {
+    font-family: 'CustomFont', Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'CustomFont', Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
 /* image in center of border */
 img {
 filter: contrast(110%)
