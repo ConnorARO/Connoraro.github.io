@@ -1,9 +1,13 @@
-/*Font family for website*/
-
+/* Define the custom font */
 @font-face {
-font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: 'CustomFont';
+  src: url('path/to/font.woff2') format('woff2'),
+       url('path/to/font.woff') format('woff');
 }
 
+body {
+  font-family: 'CustomFont', Arial, Helvetica Neue, Helvetica, sans-serif;
+}
 
 /* image in center of border */
 img {
