@@ -1,8 +1,8 @@
 /* Link to Google Fonts Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Set font-family */
-body, main, h1 {
+/* Set font-family for all text */
+* {
   font-family: 'Roboto', Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
