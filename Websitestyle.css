@@ -6,6 +6,10 @@
   font-family: 'Roboto', Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
+p {
+  font-family: 'Roboto', Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
 img {
   filter: contrast(110%);
   max-width: 100%;
