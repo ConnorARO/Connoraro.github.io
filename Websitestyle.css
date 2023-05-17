@@ -1,11 +1,9 @@
-@font-face {
-  font-family: 'CustomFont';
-  src: url('arial.ttf') format('truetype'),
-       url('Roboto-Black.ttf') format('truetype');
-}
+/* Link to Google Fonts Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Set font-family */
 body, main, h1 {
-  font-family: 'CustomFont', Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 img {
