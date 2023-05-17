@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'CustomFont';
   src: url('arial.ttf') format('truetype'),
-       url('roboto-black.ttf') format('truetype');
+       url('Roboto-Black.ttf') format('truetype');
 }
 
 body, main, h1 {
