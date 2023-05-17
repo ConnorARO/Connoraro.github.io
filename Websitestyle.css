@@ -1,8 +1,8 @@
 /* Define the custom font */
 @font-face {
   font-family: 'CustomFont';
-  src: url('/fonts/arial.ttf') format('truetype'),
-       url('/fonts/roboto-black.ttf') format('truetype');
+  src: url('/Fonts/arial.ttf') format('truetype'),
+       url('/Fonts/roboto-black.ttf') format('truetype');
 }
 
 body {
