@@ -77,6 +77,31 @@ img {
 <center>    
   <p>Time: <span id="time"> </span> </p>
 <script src="Script.js"></script>
+  <script>
+
+    var quotes = [
+      "“What I did, anybody can do.”~  Weegee",
+      "“I am very happy with the equipment I have. All I need is time and patience to use it to the fullest degree, plus God on my side to help with the lighting problems – to move the sun, the moon and the stars to the positions of my choice.“~  Larry Burrows ",
+      "“Photography is the truth if it’s being handled by a truthful person.“ ~ Don McCullin",
+      "“It's fine to celebrate success but it is more important to heed the lessons of failure.“ ~ Bill Gates",
+       "“Don't count the days. Make the days count.“ ~ Muhammad Ali",
+    ];
+
+    function getRandomQuote() {
+      var randomIndex = Math.floor(Math.random() * quotes.length);
+      return quotes[randomIndex];
+    }
+
+    function updateQuote() {
+      var quoteElement = document.getElementById("quote");
+      quoteElement.innerHTML = getRandomQuote();
+    }
+
+  </script>
+
+  <body onload="updateQuote()">
+  <p id="quote"></p>
+  
 </div>
 </main>
 
