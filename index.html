@@ -47,9 +47,33 @@ Multimedia Portfolio</a></h1>
 	<div class="body-text">
 <div class="borderaroundtext">
 	<h1>Welcome</h1>
-	<p>Welcome to my Media portfolio! I am currently a University student on my placement year in videography. I am primarily a photographer but I am experienced in videography and web-design. My passion for media began in 2018 and over the years I have began to find my niches within the industry and find what I truly enjoy. Take a look around my portfolio to see my media work and if you have any questions do get in touch, links to my social media and email can be found within the sites footer.  </p>
+	<p>Explore my Media Portfolio and enter my creative world! I'm currently a university student immersed in the world of videography during my placement year. While my primary focus is photography, I've also honed my skills in videography and web design. My journey in the realm of media commenced in 2018, and with each passing year, I've discovered my unique niches within the industry—unveiling my genuine passions. Feel free to browse through my portfolio to witness my captivating media creations. Should you have any inquiries, don't hesitate to reach out; you'll find links to my social media and email in the website's footer.</p>
 <center>
-	<img src="view.jpg" alt="View of Emley Moore Mast from afar">
+<img class="Slides" src="./Portfolio/Umbrella-Girl.JPG">
+<img class="Slides" src="./Portfolio/Sat by the flowers.JPG">
+<img class="Slides" src="./Portfolio/Jesus-Loves-You.JPG">
+<img class="Slides" src="./Portfolio/lights.jpg">
+<img class="Slides" src="./Portfolio/streetart.jpg">
+<img class="Slides" src="./Portfolio/Church.jpg">
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("Slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+
+}
+	</script>
+
                </center>
 
 <style>
@@ -74,6 +98,7 @@ img {
   }
 }
 </style>
+
 
 <div class="time">    
 <center>    
