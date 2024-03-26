@@ -9,6 +9,42 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.self-image {
+    order: 1; /* Order the image container to come first */
+}
+
+.text-content {
+    order: 2; /* Order the text content to come second */
+}
+
+@media screen and (min-width: 720px) {
+    #about {
+        flex-direction: row; /* Reset to default row layout on larger screens */
+    }
+
+    .self-image {
+        order: 0; /* Reset image container order */
+        margin-right: 20px; /* Add spacing between image and text */
+    }
+
+    .text-content {
+        order: 1; /* Reset text content order */
+    }
+}
+
+.text-content h2 {
+    margin-bottom: -15px; /* Adjust the margin-bottom as needed */
+}
+/* You may need to adjust styles for better alignment and responsiveness */
+
+
+
 #menu {
   color: #e3dac9;
   display: flex;
@@ -58,7 +94,9 @@ img {
 
 @media screen and (max-width: 720px) {
   .menu-toggle-label {
-    display: block;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     color: #e3dac9;
     background-color: transparent;
     border: none;
