@@ -286,3 +286,23 @@ font-size: 26px;
   font-size: 20px;
 }
 
+
+.filter-menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    background-color: #292929;
+    border-bottom-style:5px solid  #e3dac9    padding: 10px 15px;
+  border-bottom: 2px solid #e3dac9;
+  padding: 10px 15px;    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #e3dac9;
+}
+
+.filter-btn:hover {
+    background-color: #bf7c2a;
+}
+
